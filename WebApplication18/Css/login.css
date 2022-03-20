@@ -1,0 +1,93 @@
+body {
+    background-color: #f3f6fd;
+}
+
+
+/*start login page content*/
+
+.Login-img {
+    width: 500px;
+    height: 300px;
+    margin-top: 350px;
+    transform: translate(0, -50%);
+}
+
+.Login-form {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.Login-form a {
+    color: #6C63FF;
+}
+
+.img-left {
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 400px;
+    margin-top: 190px;
+    transition: border 0.6s;
+}
+
+.card-body {
+    margin-top: 5px;
+    ;
+}
+
+.card-body h1 {
+    margin-top: -13px;
+}
+
+.card .input-group {
+    margin-bottom: 10px;
+}
+
+.btn-sub-form {
+    border-radius: 30px;
+    width: 100%;
+    background-color: #6C63FF;
+    color: black;
+    margin-top: 5px
+}
+
+.card:hover {
+    border: 3px solid #6C63FF;
+}
+
+
+/*end login page content*/
+
+
+/*start media query*/
+
+@media screen and (max-width:990px) {
+    body {
+        overflow-x: hidden
+    }
+    .card {
+        margin-top: -170px
+    }
+    .Login-img {
+        margin-top: 150px
+    }
+    body {
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:507px) {
+    .Login-img {
+        width: 100%;
+    }
+    .card {
+        width: 300px
+    }
+    body {
+        overflow: hidden;
+    }
+}
+
+
+/*end media query*/

@@ -1,0 +1,311 @@
+﻿body {
+    margin: 0px;
+}
+
+
+/*start navbar*/
+
+.navbar-brand {
+    color: red;
+    padding: 0 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.nav-menu {
+    background: transparent;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    transition: all .4s;
+    margin-top: -120px;
+    ;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.menu-item {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    cursor: pointer;
+    outline: 0;
+    background-color: black;
+}
+
+.ham {
+    transition: width 0.3s;
+    background: #F9F8F7;
+}
+
+.line1,
+.line3 {
+    width: 28px;
+    height: 2px;
+    margin: 6px;
+    transition: 0.4s;
+}
+
+.change .line1 {
+    transform: rotate(-45deg) translate(-3px, 2px);
+}
+
+.change .line3 {
+    transform: rotate(45deg) translate(-3px, -2px);
+}
+
+.menu-item {
+    color: red;
+    font-size: 15px;
+}
+
+.dropdown-item {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.costum-navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #000 !important;
+    position: fixed;
+    height: 60px
+}
+
+
+/*start media styles*/
+
+@media (max-width:34em) {
+    .nav-menu {
+        background: #000 !important;
+    }
+}
+
+@media (max-width: 34em) {
+    .menu-item {
+        padding: 10px 10px 10px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    #myNavbar {
+        background-color: black;
+    }
+    .menu-item {
+        color: white;
+    }
+}
+
+
+/*end media styles*/
+
+
+/*end navbar*/
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*slider-----------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* cards-slider---------------------------------------------------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider {
+    margin-top: 50px;
+    max-width: 1100px;
+    display: flex;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.slider .card {
+    flex: 1;
+    margin: 0 10px;
+    background: #fff;
+}
+
+.slider .card .img {
+    height: 200px;
+    width: 100%;
+}
+
+.slider .card .img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider .card .content {
+    padding: 10px 20px;
+}
+
+.card .content .title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card .content .sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #e74c3c;
+    line-height: 20px;
+}
+
+.card .content p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.card .content .btn {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.card .content .btn button {
+    background: #e74c3c;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .content .btn button:hover {
+    transform: scale(0.9);
+}
+
+.owl-nav {
+    display: none;
+}
+
+
+/*end card carousel*/
+
+
+/*----------------------------------------------------------------------------*/
+
+
+/*start boyytom-jump-to-up------------------------------------------------------------------------------------------------------------*/
+
+#top {
+    opacity: 0.3;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    display: none;
+    transition: all 0.3 ease-in-out;
+    z-index: 999;
+}
+
+#top:hover {
+    opacity: 1;
+}
+
+
+/*end button-jump-to-up*/
+
+
+/*----------------------------------------------------------------------------*/
+
+.h {
+    margin-top: 100px
+}
+
+
+/*responsive-quries----------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 990px) {
+    .part1 {
+        display: block;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+    iframe {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .h {
+        margin-top: 10px;
+    }
+    .brand-img {
+        margin-top: -22px;
+    }
+    .dubai-desc {
+        margin-left: 0px;
+    }
+    .cont-icons {
+        margin-top: 30px;
+    }
+    .foot-form {
+        margin-top: 80px;
+    }
+    .chat {
+        margin-top: 10px
+    }
+}
+
+
+/*----------------------------------------------------------------------------*/
+
+.h {
+    margin-top: 120px;
+    text-align: center;
+    color: red
+}
+
+.line {
+    position: absolute;
+    width: 80px;
+    background-color: aqua;
+    height: 5px;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+.cir {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    left: 50%;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    top: 172px;
+}

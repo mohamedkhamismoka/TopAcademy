@@ -1,0 +1,68 @@
+﻿body {
+    background-image: url('../images/photo_2021-09-23_03-46-46.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.sign-form {
+    position: absolute;
+    background-color: grey;
+    width: 400px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -225px;
+    color: white;
+    img {
+        position: absolute;
+        width: 100px;
+        height: 90px;
+        top: -50px;
+        left: 150px;
+    }
+    form {
+        margin-top: 50px
+    }
+    svg:not(:root).svg-inline--fa {
+        margin-right: 8px;
+    }
+    button {
+        border-radius: 20px;
+        background-color: orange;
+        margin-top: -8px;
+    }
+    input[type="checkbox"] {
+        margin-top: 20px;
+        margin-right: 5px
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        background-image: url("../images/photo_2021-09-23_03-46-46.jpg");
+        background-size: 100vw 100vh;
+        background-repeat: no-repeat;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sign-form {
+        width: 300px;
+        margin-left: -150px;
+        margin-top: -240px;
+        img {
+            left: 98px;
+        }
+    }
+}
+
+.remember-check {
+    margin-top: -10px;
+}

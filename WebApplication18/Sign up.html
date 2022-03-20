@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/Custom-Icon-Design-Flatastic-3-Signup (1).ico" />
+    <link rel="stylesheet" href="Css/animated-headline.css" />
+
+    <link rel="stylesheet" href="Css/bootstrap.css" />
+
+    <link href="Sass/Login.css" rel="stylesheet" />
+
+    <link href="Sass/signup.css" rel="stylesheet" />
+
+    <title>SignUp</title>
+</head>
+
+<body>
+    <!--start sign form-->
+    <div class="container sign-form">
+        <img src="images/1168742.png" />
+        <form>
+            <!--start user name-->
+            <div class="form-group">
+                <label for="euser"><i class="fa fa-user"></i>UserName</label>
+                <input type="text" class="form-control" id="user" placeholder="Enter userName" name="name">
+            </div>
+            <!--end user name-->
+
+
+            <!--start mail-->
+            <div class="form-group">
+                <label for="email"><i class="fa fa-envelope"></i>Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Mail" name="mail">
+            </div>
+            <!--start mail-->
+            <!--start phone-->
+            <div class="form-group">
+                <label for="ph"><i class="fa fa-mobile-phone"></i>Phone</label>
+                <input type="tel" class="form-control" id="ph" placeholder="Enter phone number" name="ph">
+            </div>
+
+            <!--end phone -->
+
+
+            <!--start password-->
+            <div class="form-group">
+                <label for="pwd"> <i class="fa fa-lock"></i>Password</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <!--end password-->
+
+            <div class="form-group remember-check">
+
+                <input type="checkbox">Remember me
+            </div>
+        </form>
+        <button class="btn  btn-block" onclick="location.href='Login.html'">Sign</button>
+
+
+    </div>
+
+    <script src="Scripts/jquery-3.0.0.js"></script>
+    <script src="Scripts/popper.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+
+</html>

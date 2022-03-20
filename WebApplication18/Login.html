@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/Icons8-Windows-8-User-Interface-Login.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/Custom-Icon-Design-Flatastic-3-Signup (1).ico" />
+    <link rel="stylesheet" href="Css/animated-headline.css" />
+
+    <link rel="stylesheet" href="Css/bootstrap.css" />
+
+
+    <link href="Sass/login.css" rel="stylesheet" />
+
+
+    <title>Login</title>
+</head>
+
+<body>
+    <!--start login form-->
+    <div class="container login-form">
+        <img src="images/1168742.png" />
+        <form>
+            <!--start user name-->
+            <div class="form-group">
+                <label for="euser"><i class="fa fa-user"></i>UserName</label>
+                <input type="text" class="form-control" id="user" placeholder="Enter userName" name="name">
+            </div>
+            <!--end user name-->
+            <!--start password-->
+            <div class="form-group">
+                <label for="pwd"> <i class="fa fa-lock"></i>Password</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <!--end password-->
+        </form>
+
+        <button class=" btn btn-warning btn-block" onclick="location.href='Courses.html'">Login</button>
+
+        <p style="text-align:center;opacity:0.5;margin-top:2px"> All rights reserved by Me &copy;</p>
+    </div>
+    <!--end login form-->
+    <script src="js/jquery.js" type="text/JavaScript"></script>
+    <script src="js/bootstrap.js" type="text/JavaScript"></script>
+    <script src="js/popper.js" type="text/JavaScript"></script>
+    <script src="js/all.js" type="text/JavaScript"></script>
+    <script src="js/main.js" type="text/JavaScript"></script>
+
+    <script src="js/loader.js" type="text/JavaScript">
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(" button .btn-block").click(function() {
+                window.location.href = "Courses.html";
+            })
+        })
+    </script>
+</body>
+
+</html>

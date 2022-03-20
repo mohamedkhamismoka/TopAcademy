@@ -1,0 +1,174 @@
+/*start navbar*/
+.navbar-brand {
+  color: red;
+  padding: 0 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.nav-menu {
+  background: transparent;
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  margin-top: -115px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.menu-item {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  cursor: pointer;
+  outline: 0;
+  background-color: black;
+}
+
+.ham {
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+  background: #F9F8F7;
+}
+
+.line1,
+.line3 {
+  width: 28px;
+  height: 2px;
+  margin: 6px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.change .line1 {
+  -webkit-transform: rotate(-45deg) translate(-3px, 2px);
+          transform: rotate(-45deg) translate(-3px, 2px);
+}
+
+.change .line3 {
+  -webkit-transform: rotate(45deg) translate(-3px, -2px);
+          transform: rotate(45deg) translate(-3px, -2px);
+}
+
+.menu-item {
+  color: red;
+  font-size: 15px;
+}
+
+.dropdown-item {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.costum-navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #000 !important;
+  position: fixed;
+  height: 60px;
+}
+
+/*start media styles*/
+@media (max-width: 34em) {
+  .nav-menu {
+    background: #000 !important;
+  }
+}
+
+@media (max-width: 34em) {
+  .menu-item {
+    padding: 10px 10px 10px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  #myNavbar {
+    background-color: black;
+  }
+  .menu-item {
+    color: white;
+  }
+}
+
+/*end media styles*/
+/*end navbar*/
+h2 {
+  margin-top: 110px;
+}
+
+table {
+  margin-top: 20px;
+  padding: 0.6rem;
+}
+
+.coex,
+.exp {
+  display: none;
+  width: 10px;
+  height: 19px;
+  color: white;
+  font-size: 7px;
+  text-align: center;
+  position: relative;
+  margin-right: 0px;
+  margin-left: -6px;
+}
+
+.coex svg:not(:root).svg-inline--fa,
+.exp svg:not(:root).svg-inline--fa {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+#coll {
+  display: none;
+  border: 1px solid #898584;
+}
+
+#coll td {
+  border: 1px solid #898584;
+  text-align: center;
+}
+
+#coll .op {
+  border: none;
+}
+
+#coll .add {
+  border-right: none;
+}
+
+/*start jump-to-up*/
+#top {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.3;
+  float: right;
+}
+
+#top:hover {
+  opacity: 1;
+}
+
+/*end jump-to-up*/
+/*# sourceMappingURL=Branches.css.map */

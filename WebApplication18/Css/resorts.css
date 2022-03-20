@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+h1 {
+  font-family: "Lobster", cursive;
+}
+body {
+  overflow: auto;
+}
+.navbar-nav {
+  margin-left: 1080px;
+}
+.x {
+  margin-top: 100px;
+}
+.part1 {
+  display: inline-block;
+  box-shadow: 2px 3px 10px black;
+  padding: 0;
+  margin-left: 90px;
+  border-radius: 30px;
+  text-align: center;
+}
+.part1 img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 300px;
+}
+.part1 p {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+.part1 button {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.icons {
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.icons i {
+  color: gold;
+}
+hr {
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  height: 5px;
+  background-color: blue;
+  margin-top: 110px;
+  
+}
+@media screen and (max-width: 990px) {
+  .part1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: 80px;
+    height: 450px;
+  }
+  .x {
+    margin-top: 80px;
+  }
+}
+#top {
+  opacity: 0.3;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  display: none;
+}
+
+#top:hover {
+  opacity: 1;
+}
+ .x .part1:hover{
+   transform: translate(0px,-40px);
+  transition: all 0.2s ease-in-out;
+
+  
+}

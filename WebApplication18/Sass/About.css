@@ -1,0 +1,162 @@
+/*satrt navbar-------------------------------------------------------------------------*/
+.navbar-brand {
+  color: white;
+  padding: 0 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.nav-menu {
+  background: transparent;
+  padding: 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  margin-top: -2px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.menu-item {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  color: red;
+  font-size: 15px;
+}
+
+.navbar-toggler {
+  cursor: pointer;
+  outline: 0;
+  background-color: black;
+}
+
+.ham {
+  -webkit-transition: width 0.3s;
+  transition: width 0.3s;
+  background: #F9F8F7;
+}
+
+.line1 {
+  width: 28px;
+  height: 2px;
+  margin: 6px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.line3 {
+  width: 28px;
+  height: 2px;
+  margin: 6px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.change .line1 {
+  -webkit-transform: rotate(-45deg) translate(-3px, 2px);
+          transform: rotate(-45deg) translate(-3px, 2px);
+}
+
+.change .line3 {
+  -webkit-transform: rotate(45deg) translate(-3px, -2px);
+          transform: rotate(45deg) translate(-3px, -2px);
+}
+
+.dropdown-item {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.costum-navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #000 !important;
+  position: fixed;
+  height: 60px;
+}
+
+/*start media query for navbar*/
+@media (max-width: 34em) {
+  .nav-menu {
+    background: #000 !important;
+  }
+}
+
+@media (max-width: 34em) {
+  .menu-item {
+    padding: 10px 10px 10px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px) {
+  #myNavbar {
+    background-color: black;
+  }
+  .menu-item {
+    color: white;
+  }
+}
+
+/*end media query for navbar*/
+/*end navbar-----------------------------------------------------------------------------------*/
+/*start content*/
+/*end content*/
+body {
+  overflow: hidden;
+}
+
+.left-image {
+  background-image: url("../images/student-g1f7d70602_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 753px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.left-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.right-content {
+  margin-top: 120px;
+}
+
+.right-content span {
+  display: inline-block;
+  width: 130px;
+  height: 3px;
+  background-color: orange;
+}
+
+@media screen and (max-width: 990px) {
+  .right-content {
+    margin-top: 20px;
+  }
+  body {
+    overflow: visible;
+  }
+}
+/*# sourceMappingURL=About.css.map */
